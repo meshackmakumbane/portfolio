@@ -9,7 +9,7 @@ contactForm.addEventListener("submit", async (e) => {
 
     const errorMessage = document.getElementById("error-message");
 
-    const URL = "http://localhost:8080";
+    const URL = "https://portfolio-2-mlub.onrender.com";
 
     try {
         const response = await fetch(`${URL}/api/contact`, {
