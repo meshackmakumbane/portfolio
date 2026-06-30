@@ -4,17 +4,19 @@ import { configDotenv } from 'dotenv'
 
 configDotenv()
 
-import contactRoute from './routes/contactRoutes.js'
+import contactRouter from './routes/contactRoutes.js'
 import { errorMiddleware } from './middleware/errorMiddleware.js'
 
 const app = express()
 
 const PORT = process.env.PORT || 8080
 
-app.use(express.json())
+
 app.use(cors({
     origin: "https://makumbaneportfolio.netlify.app"
 }));
+
+app.use(express.json())
 
 //Health check
 app.get('/health', (req, res)=>{
@@ -24,7 +26,7 @@ app.get('/health', (req, res)=>{
 })
 
 //Routes
-app.use("/api/contact", contactRoute)
+app.use("/api/contact", contactRouter)
 
 //Error Middleware
 app.use(errorMiddleware)
