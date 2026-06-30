@@ -872,6 +872,11 @@ margin-top: 5px !important;
   font-weight: 500;
 }
 
+.error-text{
+  font-size: 14px;
+  font-weight: 500;
+}
+
 
 .experience-card {
   background: rgba(255, 255, 255, 0.007);
