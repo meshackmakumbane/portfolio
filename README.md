@@ -2,13 +2,13 @@
 
 Welcome to my personal portfolio website. This project showcases my professional experience, technical skills, and featured projects as a Full Stack Developer.
 
-## 🌐 Live Demo
+## Live Demo
 
 🔗 https://makumbaneportfolio.netlify.app/
 
 ---
 
-## 👨‍💻 About
+## About
 
 I'm a Full Stack Developer with over **4 years of experience** building modern web applications and systems using JavaScript technologies. I enjoy creating scalable, user-friendly solutions and continuously learning new technologies.
 
@@ -21,7 +21,7 @@ This portfolio was built to:
 
 ---
 
-## ✨ Features
+## Features
 
 - Responsive design
 - Modern UI and animations
@@ -35,7 +35,7 @@ This portfolio was built to:
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 ### Frontend
 
@@ -58,20 +58,33 @@ This portfolio was built to:
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 portfolio/
-│
-├── css/
-├── js/
-├── images/
-├── pages/
-├── email/
-├── templates/
-├── index.html
-├── package.json
-└── README.md
+
+├── client/
+    ├── css/
+    ├── script/
+    ├── images/
+    ├── pages/
+    ├── email/
+    ├── templates/
+    ├── index.html
+    ├── skills.html
+    ├── experience.html
+    ├── projects.html
+    ├── tools.html
+    └── projects/
+├── server/
+    ├── controllers/
+    ├── email/
+    ├── middleware/
+    ├── routes/
+    ├── email/
+    ├── templates/
+    └── package.json
+├── README.md
 ```
 
 ---
