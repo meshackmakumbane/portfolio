@@ -89,7 +89,7 @@ portfolio/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Clone the repository
 
@@ -117,7 +117,7 @@ npm run dev
 
 ---
 
-## 📬 Contact
+## Contact
 
 If you'd like to discuss a project or employment opportunity, feel free to get in touch.
 
@@ -127,6 +127,6 @@ If you'd like to discuss a project or employment opportunity, feel free to get i
 
 ---
 
-## ⭐ Support
+## Support
 
 If you like this project, consider giving it a ⭐ on GitHub.
